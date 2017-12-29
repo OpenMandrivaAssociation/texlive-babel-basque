@@ -1,12 +1,6 @@
-# revision 30256
-# category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-babel-basque
-Version:	20131013
-Release:	9
+Version:	1.0f
+Release:	1
 Summary:	TeXLive babel-basque package
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -32,11 +26,10 @@ TeXLive babel-basque package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/babel-basque/basque.ldf
-%doc %{_texmfdistdir}/doc/generic/babel-basque/basque.pdf
+%{_texmfdistdir}/tex/generic/babel-basque
+%doc %{_texmfdistdir}/doc/generic/babel-basque
 #- source
-%doc %{_texmfdistdir}/source/generic/babel-basque/basque.dtx
-%doc %{_texmfdistdir}/source/generic/babel-basque/basque.ins
+%doc %{_texmfdistdir}/source/generic/babel-basque
 
 #-----------------------------------------------------------------------
 %prep
