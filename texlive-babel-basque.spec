@@ -5,9 +5,9 @@ Summary:	TeXLive babel-basque package
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.r30256.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.doc.r30256.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.source.r30256.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-basque.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
