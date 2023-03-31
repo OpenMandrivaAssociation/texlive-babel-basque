@@ -1,6 +1,6 @@
 Name:		texlive-babel-basque
 Version:	30256
-Release:	1
+Release:	2
 Summary:	TeXLive babel-basque package
 Group:		Publishing
 URL:		http://tug.org/texlive
